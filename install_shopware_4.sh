@@ -9,9 +9,6 @@ sudo composer install
 sudo chown -R www-data:www-data /var/www/html/shopware
 sudo chmod -R 755 /var/www/html/shopware
 
-sudo wget https://pastebin.com/raw/X4a7Y3aq
-sudo mv X4a7Y3aq /etc/nginx/sites-available/shopware.conf
-
 sudo ln -s /etc/nginx/sites-available/shopware.conf /etc/nginx/sites-enabled/
 
 sudo nginx -t

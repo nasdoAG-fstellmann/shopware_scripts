@@ -6,4 +6,3 @@ sudo chmod 777 /usr/bin/
 sudo curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 
 sudo mkdir /var/www/html/shopware
-cd /var/www/html/shopware
